@@ -1,3 +1,6 @@
+//Thu Sep 05 2024 13:07:20 GMT+0000 (Coordinated Universal Time)
+//Base:https://github.com/echo094/decode-js
+//Modify:https://github.com/smallfawn/decode_action
 //Wed Aug 07 2024 14:21:49 GMT+0000 (Coordinated Universal Time)
 //Base:https://github.com/echo094/decode-js
 //Modify:https://github.com/smallfawn/decode_action
@@ -61,7 +64,7 @@ async function _0x435ec7(_0x2c858d, _0x2332d1, _0x4b59f3, _0x5aa3cc) {
     asac: "169932820075525472118"
   };
   let _0x52d858 = await _0x5da2a0(_0x2c858d, JSON.stringify(_0xfd0d4c), "mtop.ele.biz.growth.task.core.receiveprize", _0x24ea83, "", process.env.x5sec);
-  _0x52d858 && _0x52d858.data.rlist && console.log("完成任务");
+  _0x52d858 && _0x52d858.data.rlist && console.log("\u5B8C\u6210\u4EFB\u52A1");
 }
 async function _0x5c575e(_0x51b2b, _0x3d9812, _0x5953dd) {
   const _0x51bea2 = {
@@ -76,7 +79,7 @@ async function _0x5c575e(_0x51b2b, _0x3d9812, _0x5953dd) {
     ua: "1"
   };
   let _0x3eaff1 = await _0x5da2a0(_0x51b2b, JSON.stringify(_0x51bea2), "mtop.ele.biz.growth.task.core.receiveprize", _0x24ea83, "", process.env.x5sec);
-  _0x3eaff1 && _0x3eaff1.rlist && console.log("完成任务");
+  _0x3eaff1 && _0x3eaff1.rlist && console.log("\u5B8C\u6210\u4EFB\u52A1");
 }
 async function _0x225d6b(_0x28c9b8, _0xad0080, _0x360139) {
   const _0x34921e = {
@@ -161,7 +164,7 @@ function _0x594af1(_0x4f02ce) {
 }
 const _0x1986db = async (_0x3eb1c, _0x5db2f7, _0x131052 = 5) => {
   if (_0x131052 === 0) {
-    console.log("网络异常，请检查网络状况");
+    console.log("\u7F51\u7EDC\u5F02\u5E38\uFF0C\u8BF7\u68C0\u67E5\u7F51\u7EDC\u72B6\u51B5");
     return "";
   }
   const _0x1aa3a9 = _0x594af1(_0x3eb1c),
@@ -192,7 +195,7 @@ const _0x1986db = async (_0x3eb1c, _0x5db2f7, _0x131052 = 5) => {
           _0x389653(_0x242f71.data.msg);
         }
       } else {
-        _0x4e0866 && (_0x4e0866.message.indexOf("socket hang up") !== -1 || _0x4e0866.message.indexOf("read ECONNRESET") !== -1) ? (console.log("网络链接失败，将在 2 秒后重试"), await _0x1e0e6b(2), _0x389653(await _0x1986db(_0x3eb1c, _0x5db2f7, _0x131052 - 1))) : (console.log("网络异常，请检查网络状况"), _0x389653(""));
+        _0x4e0866 && (_0x4e0866.message.indexOf("socket hang up") !== -1 || _0x4e0866.message.indexOf("read ECONNRESET") !== -1) ? (console.log("\u7F51\u7EDC\u94FE\u63A5\u5931\u8D25\uFF0C\u5C06\u5728 2 \u79D2\u540E\u91CD\u8BD5"), await _0x1e0e6b(2), _0x389653(await _0x1986db(_0x3eb1c, _0x5db2f7, _0x131052 - 1))) : (console.log("\u7F51\u7EDC\u5F02\u5E38\uFF0C\u8BF7\u68C0\u67E5\u7F51\u7EDC\u72B6\u51B5"), _0x389653(""));
       }
     });
   });
@@ -211,18 +214,18 @@ async function _0x528630(_0x5260f4, _0x1b7800) {
     appid: "3000000091262411"
   };
   const _0x3d0021 = getToken(_0x5260f4),
-          _0x15dbe5 = _0x3d0021.split("_")[0];
+    _0x15dbe5 = _0x3d0021.split("_")[0];
   const _0x3fe7c9 = new Date().getTime(),
     _0x56f126 = 34190632,
     _0x3dac41 = "data=" + encodeURIComponent(JSON.stringify(_0x1b7800)),
-   // _0x52ff00 = await _0x1986db(_0x5260f4, "&" + _0x3fe7c9 + "&" + _0x56f126 + "&" + JSON.stringify(_0x1b7800), _0x1b471c),
-   _0x52ff00 =md5(_0x15dbe5 + '&' + _0x3fe7c9 + '&' + _0x56f126 + '&' + JSON.stringify(_0x1b7800));
-    _0x449212 = {
-      url: "https://shopping.ele.me/h5/mtop.miniapp.cloud.application.request/1.0/?jsv=2.6.1&appKey=34190632&t=" + _0x3fe7c9 + "&sign=" + _0x52ff00 + "&api=mtop.miniapp.cloud.application.request&v=1.0&type=originaljson&ttid=1608030065155%40eleme_android_11.0.38",
-      method: "POST",
-      headers: _0x488cf1,
-      body: _0x3dac41
-    };
+    // _0x52ff00 = await _0x1986db(_0x5260f4, "&" + _0x3fe7c9 + "&" + _0x56f126 + "&" + JSON.stringify(_0x1b7800), _0x1b471c),
+    _0x52ff00 = md5(_0x15dbe5 + "&" + _0x3fe7c9 + "&" + _0x56f126 + "&" + JSON.stringify(_0x1b7800));
+  _0x449212 = {
+    url: "https://shopping.ele.me/h5/mtop.miniapp.cloud.application.request/1.0/?jsv=2.6.1&appKey=34190632&t=" + _0x3fe7c9 + "&sign=" + _0x52ff00 + "&api=mtop.miniapp.cloud.application.request&v=1.0&type=originaljson&ttid=1608030065155%40eleme_android_11.0.38",
+    method: "POST",
+    headers: _0x488cf1,
+    body: _0x3dac41
+  };
   return _0x358f23(_0x12e6b6 => {
     _0x34af9d(_0x449212, async (_0x10ef1d, _0x26232e, _0x244ee5) => {
       if (!_0x10ef1d && _0x26232e.statusCode === 200) {
@@ -300,7 +303,7 @@ async function _0xf0859e(_0x1c8b82, _0x2f594c) {
       channel_id: 1002,
       cver: "1.0.1",
       wx_data: {
-        nickName: "曾天曼",
+        nickName: "\u66FE\u5929\u66FC",
         gender: 2,
         avatarUrl: "elm_head_2_jpg",
         sk: "",
@@ -347,7 +350,7 @@ async function _0x5be252() {
     }
     let _0x32757e = await getUserInfo(_0x244cdb, _0x24ea83);
     if (_0x32757e && _0x32757e[0]) {
-      console.log("第", _0x1c70c2 + 1, "账号失效！请重新登录！！！😭");
+      console.log("\u7B2C", _0x1c70c2 + 1, "\u8D26\u53F7\u5931\u6548\uFF01\u8BF7\u91CD\u65B0\u767B\u5F55\uFF01\uFF01\uFF01\uD83D\uDE2D");
       continue;
     }
     //console.log(_0x32757e)
@@ -357,24 +360,20 @@ async function _0x5be252() {
     const _0x321d13 = _0x32757e.user_id;
     let _0x147fd6 = _0x32757e.mobile;
     console.log("\n****** #" + (_0x1c70c2 + 1), _0x147fd6, "*********");
-    console.log("账号的 id 为", _0x321d13);
+    console.log("\u8D26\u53F7\u7684 id \u4E3A", _0x321d13);
     const _0x2d28dd = await _0x393e4b(_0x244cdb),
       _0x4fd68a = await _0xf0859e(_0x244cdb, _0x2d28dd);
-    
     let _0x2f18c9;
- while(true){
-     _0x2f18c9 = await _0x46037d(_0x244cdb, _0x4fd68a);
-     if(_0x2f18c9.errcode==0)
-     console.log("领取金币成功，当前金币：" + _0x2f18c9.value);
-     else if(_0x2f18c9.errcode==2)
-     {
-         console.log(_0x2f18c9.msg)
-         break;
-     }else{
-         console.log("等待5分钟")
-         await _0x1e0e6b(5*60);
-     }
- }
+    while (true) {
+      _0x2f18c9 = await _0x46037d(_0x244cdb, _0x4fd68a);
+      if (_0x2f18c9.errcode == 0) console.log("\u9886\u53D6\u91D1\u5E01\u6210\u529F\uFF0C\u5F53\u524D\u91D1\u5E01\uFF1A" + _0x2f18c9.value);else if (_0x2f18c9.errcode == 2) {
+        console.log(_0x2f18c9.msg);
+        break;
+      } else {
+        console.log("\u7B49\u5F855\u5206\u949F");
+        await _0x1e0e6b(300);
+      }
+    }
     // _0x2f18c9.msg ? console.log(_0x2f18c9.msg) : console.log("领取金币成功，当前金币：" + _0x2f18c9.value);
     // while (!_0x2f18c9.msg) {
     //     console.log("等待5分钟");
@@ -382,7 +381,7 @@ async function _0x5be252() {
     //   _0x2f18c9 = await _0x46037d(_0x244cdb, _0x4fd68a);
     //   _0x2f18c9.msg ? console.log(_0x2f18c9.msg) : console.log("领取金币成功，当前金币：" + _0x2f18c9.value);
     // }
-    console.log("防止挤爆了，延时 1 秒");
+    console.log("\u9632\u6B62\u6324\u7206\u4E86\uFF0C\u5EF6\u65F6 1 \u79D2");
     await _0x1e0e6b(1);
   }
   process.exit(0);
@@ -761,7 +760,7 @@ function Env(t, e) {
         }
       };
       if (this.isMute || (this.isSurge() || this.isLoon() ? $notification.post(e, s, i, o(r)) : this.isQuanX() && $notify(e, s, i, o(r))), !this.isMuteLog) {
-        let t = ["", "==============📣系统通知📣=============="];
+        let t = ["", "==============\uD83D\uDCE3\u7CFB\u7EDF\u901A\u77E5\uD83D\uDCE3=============="];
         t.push(e);
         s && t.push(s);
         i && t.push(i);
