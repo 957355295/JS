@@ -1,3 +1,6 @@
+//Sat Oct 05 2024 16:31:58 GMT+0000 (Coordinated Universal Time)
+//Base:https://github.com/echo094/decode-js
+//Modify:https://github.com/smallfawn/decode_action
 //Sat Oct 05 2024 16:27:31 GMT+0000 (Coordinated Universal Time)
 //Base:https://github.com/echo094/decode-js
 //Modify:https://github.com/smallfawn/decode_action
@@ -1416,7 +1419,7 @@ async function BAq1SG(ICtmeON, r2QMEYC, jWhcsF) {
     [_SoElrj(207)]: s02Yyb(jNZdKa(99) + "b" + "P" + jNZdKa(104), jNZdKa(111), BsdfLgC(-10)),
     [_SoElrj(208)]: s02Yyb(jNZdKa(181) + "n" + "d" + jNZdKa(90) + "o" + "i", "d", BsdfLgC(-10)),
     [_SoElrj(209)]: s02Yyb("T" + jNZdKa(181) + "S" + "-" + "A" + "L" + jNZdKa(106), "0", hPdymK = -10),
-    [_SoElrj(210)]: s02Yyb(10 + "." + jNZdKa(154) + jNZdKa(96), jNZdKa(105), hPdymK = -jNZdKa(80)),
+    [_SoElrj(210)]: s02Yyb(10. + jNZdKa(154) + jNZdKa(96), jNZdKa(105), hPdymK = -jNZdKa(80)),
     [_SoElrj.call(jNZdKa(73), 211)]: s02Yyb(20 + jNZdKa(241) + jNZdKa(187) + jNZdKa(154) + jNZdKa(241) + "2" + jNZdKa(242), "0", hPdymK = -jNZdKa(80)),
     [_SoElrj(212)]: s02Yyb("K" + jNZdKa(94) + jNZdKa(94) + jNZdKa(86) + jNZdKa(243) + "A" + "l" + jNZdKa(97) + "v", "e", hPdymK = -jNZdKa(80)),
     [_SoElrj(213)]: s02Yyb("g" + jNZdKa(148) + "i", "p", BsdfLgC(-jNZdKa(80))),
