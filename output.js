@@ -1,4 +1,4 @@
-//Sat Feb 15 2025 03:05:42 GMT+0000 (Coordinated Universal Time)
+//Sat Feb 15 2025 03:48:36 GMT+0000 (Coordinated Universal Time)
 //Base:https://github.com/echo094/decode-js
 //Modify:https://github.com/smallfawn/decode_action
 const $ = new Env("潇洒桐庐");
